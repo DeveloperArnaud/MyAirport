@@ -1,7 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriBagageApp", "TriBagageApp\TriBagageApp.csproj", "{7F3B9C0F-67C1-435A-8347-3E6957D83A6A}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriBagageApp", "TriBagageApp\TriBagageApp.csproj", "{7F3B9C0F-67C1-435A-8347-3E6957D83A6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFModel", "EFModel\EFModel.csproj", "{AD2E6CE9-2DEA-494D-8B57-00E0EC31B592}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +16,15 @@ Global
 		{7F3B9C0F-67C1-435A-8347-3E6957D83A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F3B9C0F-67C1-435A-8347-3E6957D83A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F3B9C0F-67C1-435A-8347-3E6957D83A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD2E6CE9-2DEA-494D-8B57-00E0EC31B592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD2E6CE9-2DEA-494D-8B57-00E0EC31B592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD2E6CE9-2DEA-494D-8B57-00E0EC31B592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD2E6CE9-2DEA-494D-8B57-00E0EC31B592}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D8F3A7D-91DE-42FA-AA8A-7DF2230D102B}
 	EndGlobalSection
 EndGlobal
