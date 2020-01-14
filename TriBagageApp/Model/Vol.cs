@@ -30,7 +30,7 @@ namespace TriBagageApp
 
         public String Parking { get; set; }
 
-        private List<Bagage> Bagages { get; set; }
+        public List<Bagage> LesBagages { get; set; }
 
     }
 }
