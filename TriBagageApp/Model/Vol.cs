@@ -10,7 +10,7 @@ namespace TriBagageApp
         private String ligne;
         private DateTime dateVol;
         private String parking;
-        private List<Bagage> lesBagages;
+        private List<Bagage> Bagages;
         
 
 
@@ -30,7 +30,7 @@ namespace TriBagageApp
 
         public String Parking { get; set; }
 
-        private List<Bagage> LesBagages { get; set; }
+        private List<Bagage> Bagages { get; set; }
 
     }
 }
