@@ -10,8 +10,6 @@ namespace TriBagageApp
         public int CodeIATA { get; set; }
         public int Poids { get; set; }
         private Vol Vol { get; set; }
-        public List<Bagage> Bagages { get; set; }
-
 
 
 
