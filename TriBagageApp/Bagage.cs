@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EFModel
+namespace TriBagageApp
 {
     public class Bagage
     {
