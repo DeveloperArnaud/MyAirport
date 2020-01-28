@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace TriBagageApp
 {
@@ -19,18 +20,20 @@ namespace TriBagageApp
 
 
         }
-
+        [Key]
         public int Id { get; set; }
 
+        [Required(ErrorMessage = "Cie is required")]
         public String Cie { get; set; }
 
+        [Required(ErrorMessage = "Ligne is required")]
         public String Ligne { get; set; }
 
         public DateTime DateVol { get; set; }
 
         public String Parking { get; set; }
 
-        public List<Bagage> Bagages { get; set; }
+        public ICollection<Bagage> Bagages { get; set; }
 
     }
 }

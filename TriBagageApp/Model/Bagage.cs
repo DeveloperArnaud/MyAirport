@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TriBagageApp
 {
@@ -15,15 +17,16 @@ namespace TriBagageApp
         {
 
         }
-        
+        [Key]
         public int Id { get; set; }
 
+        [ForeignKey("VolId")]
         public int VolId { get; set; }
 
-        public int CodeIATA { get; set; }
+        [Required(ErrorMessage = "CodeIATA is required")]
+        public string CodeIATA { get; set; }
 
         public int? Poids { get; set; }
-
         private Vol Vol { get; set; }
 
 
