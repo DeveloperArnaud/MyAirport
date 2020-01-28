@@ -18,11 +18,11 @@ namespace TriBagageApp
         
         public int Id { get; set; }
 
-        public int IdVol { get; set; }
+        public int VolId { get; set; }
 
         public int CodeIATA { get; set; }
 
-        public int Poids { get; set; }
+        public int? Poids { get; set; }
 
         private Vol Vol { get; set; }
 
